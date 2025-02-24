@@ -1,0 +1,39 @@
+.top-bar {
+  background: #000000;
+  color: white;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.top-bar .container {
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  height: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sale-banner {
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  column-gap: 12px;
+}
+
+.sale-banner p {
+  line-height: 21px;
+}
+
+.sale-banner a {
+  color: white;
+}
+
+.language-selector {
+  margin-left: auto;
+  background-color: #000000;
+  color: white;
+  border: none;
+  margin-right: 100px;
+}
