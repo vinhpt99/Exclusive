@@ -1,0 +1,61 @@
+.hero-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  max-width: 1170px;
+}
+
+.slideshow {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  justify-items: end;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.slide img {
+  width: 100%;
+  display: block;
+}
+
+/* tree menu */
+#treeMenu li {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  width: 217px;
+  display: flex;
+  align-items: center;
+}
+
+#treeMenu li img {
+  position: absolute;
+  right: 0;
+}
+
+#treeMenu ul {
+  list-style-type: none;
+  width: 217px;
+}
+
+ul ul {
+  display: none;
+}
