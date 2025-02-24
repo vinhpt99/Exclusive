@@ -2,13 +2,13 @@
 <section class="hero-section">
   <div class="categories">
     <ul id="treeMenu">
-      <li>Woman's Fashion <img src="../assets/icons/Vector.png" />
+      <li>Woman's Fashion <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/DropDown.png" alt="DropDown">
         <ul>
           <li>Subitem 1.1</li>
           <li>Subitem 1.2</li>
         </ul>
       </li>
-      <li>Men's Fashion <img src="../assets/icons/Vector.png" />
+      <li>Men's Fashion <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/DropDown.png" alt="DropDown">
         <ul>
           <li>Subitem 2.1</li>
           <li>Subitem 2.2</li>
