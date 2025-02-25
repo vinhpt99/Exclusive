@@ -5,7 +5,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.top-bar .container {
+.top-bar div {
   max-width: 1440px;
   display: flex;
   align-items: center;

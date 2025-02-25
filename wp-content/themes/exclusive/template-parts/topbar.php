@@ -1,5 +1,5 @@
 <div class="top-bar">
-  <div class="container">
+  <div>
     <div class="sale-banner">
       <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
       <a href="">ShopNow</a>
