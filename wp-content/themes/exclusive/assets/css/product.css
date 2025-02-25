@@ -2,17 +2,15 @@
   position: relative;
   width: 270px;
   border-radius: 10px;
-  text-align: center;
   height: 350px;
   background: #fff;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
 .product-thumbnail {
   background: #f5f5f5;
   position: relative;
-  padding: 10px;
+  padding: 25px;
 }
 
 .product-discount {
@@ -21,9 +19,11 @@
   left: 10px;
   background: red;
   color: white;
-  font-size: 14px;
+  font-size: 12px;
   padding: 5px 8px;
   border-radius: 5px;
+  font-family: var(--font-poppins);
+  line-height: 18px;
 }
 
 .product-actions {
@@ -46,14 +46,11 @@
 }
 
 .product-image {
-  width: 90%;
+  width: 80%;
+  height: 50%;
   height: auto;
   display: block;
   margin: 0 auto;
-}
-
-.product-info {
-  padding: 15px;
 }
 
 .product-name {
@@ -63,32 +60,40 @@
   font-family: var(--font-poppins);
 }
 
-.product-price {
-  font-size: 14px;
-  margin: 10px 0;
-}
-
 .price-current {
   color: red;
   font-weight: bold;
+  font-family: var(--font-poppins);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
 }
 
 .price-old {
   text-decoration: line-through;
   color: gray;
   margin-left: 5px;
+  font-size: 16px;
+  font-family: var(--font-poppins);
+  line-height: 24px;
 }
 
 .product-rating {
   font-size: 14px;
   color: gold;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 .review-count {
-  font-size: 12px;
+  font-size: 14px;
   color: gray;
   margin-left: 5px;
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.product-info {
+  margin-top: 20px;
 }

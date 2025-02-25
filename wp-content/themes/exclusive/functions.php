@@ -37,7 +37,7 @@ function custom_post_type_product() {
     'public'             => true,
     'has_archive'        => true,
     'menu_icon'          => 'dashicons-cart',
-    'supports'           => array([]),
+    'supports'           => array(['title']),
     'taxonomies'         => array('category', 'post_tag'),
     'rewrite'            => array('slug' => 'product'),
   );
@@ -55,8 +55,8 @@ add_filter('manage_edit-product_columns', 'custom_product_columns');
 
 function custom_product_column_content($column, $post_id) {
     if ($column == 'product_name') {
-        $product_name = get_post_meta($post_id, 'product_name', true);
-        echo $product_name ? esc_html($product_name) : '—';
+      $product_name = get_post_meta($post_id, 'product_name', true);
+      echo '<strong><a href="' . get_edit_post_link($post_id) . '">' . esc_html($product_name) . '</a></strong>';
     }
 }
 add_action('manage_product_posts_custom_column', 'custom_product_column_content', 10, 2);

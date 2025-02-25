@@ -1,4 +1,12 @@
-<?php get_header(); ?>
+<?php
+get_header();
+$args = array(
+  'post_type'      => 'product',
+  'posts_per_page' => 10,
+);
+
+$query = new WP_Query($args);
+?>
 <section class="hero-section">
   <div class="categories">
     <ul id="treeMenu">
@@ -73,7 +81,16 @@
       </div>
     </div>
     <div class="product-line">
-      <?php get_template_part('template-parts/product'); ?>
+      <?php
+      if ($query->have_posts()) :
+        while ($query->have_posts()) : $query->the_post(); ?>
+          <div class="product-line">
+            <?php get_template_part('template-parts/product'); ?>
+          </div>
+      <?php endwhile;
+        wp_reset_postdata();
+      endif;
+      ?>
     </div>
     <div class="action">
       <button class="btn">View All Product</button>
