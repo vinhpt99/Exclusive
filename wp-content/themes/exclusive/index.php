@@ -37,3 +37,46 @@
     </div>
   </div>
 </section>
+<article>
+  <div class="container flash-sales-container">
+    <div class="header-box">
+      <span>Today's</span>
+    </div>
+    <div class="header-box-action">
+      <div>
+        <div class="heading-title">Flash Sales</div>
+        <div class="countdown">
+          <div>
+            <span class="label">Days</span>
+            <strong>03</strong>
+          </div>
+          <div class="separator">:</div>
+          <div>
+            <span class="label">Hours</span>
+            <strong>23</strong>
+          </div>
+          <div class="separator">:</div>
+          <div>
+            <span class="label">Minutes</span>
+            <strong>19</strong>
+          </div>
+          <div class="separator">:</div>
+          <div>
+            <span class="label">Seconds</span>
+            <strong>56</strong>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img src="../assets/icons/icons_arrow-left.png" alt="" />
+        <img src="../assets/icons/icons arrow-right.png" alt="" />
+      </div>
+    </div>
+    <div class="product-line">
+      <?php get_template_part('template-parts/product'); ?>
+    </div>
+    <div class="action">
+      <button class="btn">View All Product</button>
+    </div>
+  </div>
+</article>
