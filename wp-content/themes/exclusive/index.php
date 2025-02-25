@@ -97,3 +97,45 @@ $query = new WP_Query($args);
     </div>
   </div>
 </article>
+<article>
+  <div class="container">
+    <div class="header-box">
+      <span>Categories</span>
+    </div>
+    <div class="header-box-action">
+      <div>
+        <div class="heading-title">Browse By Category</div>
+      </div>
+      <div>
+        <img src="../assets/icons/icons_arrow-left.png" alt="" />
+        <img src="../assets/icons/icons arrow-right.png" alt="" />
+      </div>
+    </div>
+    <div class="category-line">
+      <div>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/Category-CellPhone.png" alt="Category CellPhone" />
+        <p class="category-name">Phones</p>
+      </div>
+      <div>
+        <img src="../assets/images/Category-Computer.png" alt="" />
+        <p class="category-name">Computers</p>
+      </div>
+      <div>
+        <img src="../assets/images/Category-SmartWatch.png" alt="" />
+        <p class="category-name">SmartWatch</p>
+      </div>
+      <div>
+        <img src="../assets/images/Category-Camera.png" alt="" />
+        <p class="category-name">Camera</p>
+      </div>
+      <div>
+        <img src="../assets/images/Category-Headphone.png" alt="" />
+        <p class="category-name">HeadPhones</p>
+      </div>
+      <div>
+        <img src="../assets/images/Category-Gamepad.png" alt="" />
+        <p class="category-name">Gaming</p>
+      </div>
+    </div>
+  </div>
+</article>
