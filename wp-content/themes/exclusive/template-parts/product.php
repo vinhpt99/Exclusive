@@ -1,6 +1,7 @@
 <?php
-$product_image_id = get_field('product_image');
-$image_url = wp_get_attachment_image_src($product_image_id, 'full');
+global $product;
+$thumbnail_id = $product->get_image_id();
+$thumbnail_url = wp_get_attachment_url($thumbnail_id);
 ?>
 
 <div class="product-item">
@@ -10,10 +11,10 @@ $image_url = wp_get_attachment_image_src($product_image_id, 'full');
       <i class="far fa-heart"></i>
       <i class="far fa-eye"></i>
     </div>
-    <img src="<?php echo esc_url($image_url[0]); ?>" alt="Product Image" class="product-image">
+    <img src="<?php echo $thumbnail_url; ?>" alt="Product Image" class="product-image">
   </div>
   <div class="product-info">
-    <h3 class="product-name"><?php the_field('product_name'); ?></h3>
+    <h3 class="product-name"><?php the_title()  ?></h3>
     <div class="product-price">
       <span class="price-current">$120</span>
       <span class="price-old">$160</span>

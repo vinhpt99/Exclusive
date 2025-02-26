@@ -1,53 +1,59 @@
-@import "./reset.css";
 @import "./topbar.css";
 @import "./header.css";
+@import "./footer.css";
 @import "./hero-section.css";
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('../fonts/Poppins/Poppins-Regular.woff2') format('woff2'),
-    url('../fonts/Poppins/Poppins-Regular.woff') format('woff'),
-    url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('../fonts/Poppins/Poppins-Bold.woff2') format('woff2'),
-    url('../fonts/Poppins/Poppins-Bold.woff') format('woff'),
-    url('../fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter/Inter-Regular.woff2') format('woff2'),
-    url('../fonts/Inter/Inter-Regular.woff') format('woff'),
-    url('../fonts/Inter/Inter-Regular.ttf') format('truetype');
+  font-family: "Inter";
+  src: url("../fonts/Inter/Inter-Regular.woff2") format("woff2"),
+    url("../fonts/Inter/Inter-Regular.woff") format("woff"),
+    url("../fonts/Inter/Inter-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter/Inter-Bold.woff2') format('woff2'),
-    url('../fonts/Inter/Inter-Bold.woff') format('woff'),
-    url('../fonts/Inter/Inter-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
 }
 
 :root {
   --font-poppins: "Poppins", sans-serif;
   --font-inter: "Inter", sans-serif;
+  --width-max: 1440px;
+  --width-large: 1200px;
+}
+
+main {
+  max-width: var(--width-max);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 120px;
 }
 
 /* flash sale */
 
 .container {
-  max-width: 1440px;
+  max-width: var(--width-max);
   margin-left: auto;
   margin-right: auto;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
@@ -135,6 +141,7 @@
 .product-line {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  column-gap: 28px;
 }
 
 .flash-sales-container .action {
@@ -163,38 +170,10 @@
   grid-template-columns: repeat(6, 1fr);
 }
 
-.category-line div {
-  height: 145px;
-  width: 170px;
-  border-radius: 4px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .category-name {
   font-size: 16px;
   font-family: var(--font-poppins);
   line-height: 24px;
-}
-
-.footer {
-  padding-left: 50px;
-  justify-content: center;
-  padding-top: 50px;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  background-color: #030406;
-  color: white;
-}
-
-.footer-title {
-  font-family: var(--font-poppins);
-  line-height: 28px;
-  font-size: 20px;
-  font-weight: 500;
 }
 
 .container.footer p {
@@ -212,29 +191,22 @@
   font-weight: bold;
 }
 
-.footer input {
-  height: 48px;
-  width: 217px;
-  background-color: #030406;
-  border: 1px solid white;
-  padding: 10px;
+/* Category line */
+.category-line>div {
+  height: 145px;
+  width: 170px;
   border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
 }
 
-.input-container {
-  margin-top: 12px;
-  position: relative;
-  display: inline-block;
-}
-
-.input-container input {
-  padding-right: 30px;
-}
-
-.input-container .arrow-icon {
-  position: absolute;
-  right: 10px;
-  top: 48%;
-  transform: translateY(-50%);
-  pointer-events: none;
+.category-img {
+  max-width: 80%;
+  max-height: 80%;
+  height: auto;
+  display: block;
 }
