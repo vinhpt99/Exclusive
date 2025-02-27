@@ -154,6 +154,51 @@ $categories = get_terms('product_cat', array(
         endif;
         ?>
       </div>
+      <div>
+        <?php get_template_part('template-parts/banner'); ?>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container">
+      <div class="header-box-title">
+        <span>Our Products</span>
+      </div>
+      <div class="header-box-action">
+        <div>
+          <div class="heading-title">Explore Our Products</div>
+        </div>
+        <div class="paging">
+          <div>
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/assets/icons/icons_arrow-left.png"
+              alt="" />
+          </div>
+          <div>
+            <img
+              src="<?php echo get_template_directory_uri(); ?>/assets/icons/icons_arrow-right.png"
+              alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="best-selling-line">
+
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="container">
+      <div class="header-box-title">
+        <span>Featured</span>
+      </div>
+      <div class="header-box-action">
+        <div>
+          <div class="heading-title">New Arrival</div>
+        </div>
+      </div>
+      <div class="best-selling-line">
+
+      </div>
     </div>
   </article>
 </main>

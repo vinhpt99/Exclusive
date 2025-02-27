@@ -12,3 +12,14 @@ function exclusive_theme_enqueue_styles() {
   wp_enqueue_script('custom-jquery', get_template_directory_uri() . '/assets/js/jquery-3.7.1.min.js', array(), null, true);
 }
 add_action('wp_enqueue_scripts', 'exclusive_theme_enqueue_styles');
+
+if( function_exists('acf_add_options_page') ) {
+  acf_add_options_page(array(
+      'page_title'  => 'Theme Settings',
+      'menu_title'  => 'Theme Settings',
+      'menu_slug'   => 'theme-settings',
+      'capability'  => 'edit_posts',
+      'redirect'    => false
+  ));
+}
+
