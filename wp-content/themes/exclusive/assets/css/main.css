@@ -1,0 +1,234 @@
+  @import "./topbar.css";
+  @import "./header.css";
+  @import "./footer.css";
+  @import "./hero-section.css";
+
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-Regular.woff2") format("woff2"),
+      url("../fonts/Inter/Inter-Regular.woff") format("woff"),
+      url("../fonts/Inter/Inter-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0 auto;
+  }
+
+  :root {
+    --font-poppins: "Poppins", sans-serif;
+    --font-inter: "Inter", sans-serif;
+    --width-max: 1440px;
+    --width-large: 1200px;
+    --secondary-color: #f5f5f5;
+  }
+
+  main {
+    max-width: var(--width-max);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 120px;
+  }
+
+  /* flash sale */
+  .paging {
+    display: flex;
+    column-gap: 10px;
+  }
+
+  .paging > div {
+    width: 46px;
+    height: 46px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    max-width: var(--width-max);
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 30px;
+  }
+
+  .header-box-title {
+    position: relative;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+
+  .header-box-title span {
+    color: #db4444;
+    position: absolute;
+    left: 35px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .header-box-title::before {
+    content: "";
+    position: absolute;
+    background-color: #db4444;
+    border-radius: 4px;
+    width: 20px;
+    height: 40px;
+  }
+
+  .header-box-action {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+  .header-box-action > div:nth-child(2) {
+    margin-left: auto;
+  }
+
+  .header-box-action > div:nth-child(1) {
+    display: flex;
+    column-gap: 30px;
+  }
+
+  .heading-title {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    line-height: 48px;
+    letter-spacing: 4%;
+  }
+
+  .countdown {
+    display: flex;
+    font-size: 32px;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    line-height: 30px;
+    letter-spacing: 4%;
+  }
+
+  .countdown div {
+    text-align: center;
+    margin: 0 8px;
+  }
+
+  .countdown .label {
+    font-size: 12px;
+    display: block;
+    font-family: var(--font-poppins);
+    line-height: 18px;
+    font-weight: 500;
+  }
+
+  .separator {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e07575;
+    padding-top: 8px;
+  }
+
+  .product-line {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 28px;
+  }
+
+  .flash-sales-container .action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+  }
+
+  .btn {
+    background-color: #db4444;
+    border: none;
+    color: white;
+    height: 56px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 4px;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: var(--font-poppins);
+    font-weight: 500;
+  }
+
+  .category-line {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .category-name {
+    font-size: 16px;
+    font-family: var(--font-poppins);
+    line-height: 24px;
+  }
+
+  .container.footer p {
+    font-size: 16px;
+    font-family: var(--font-poppins);
+    line-height: 24px;
+    padding-top: 15px;
+  }
+
+  .head-title {
+    font-family: var(--font-inter);
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    font-weight: bold;
+  }
+
+  /* Category line */
+  .category-line > div {
+    height: 145px;
+    width: 170px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .category-img {
+    max-width: 80%;
+    max-height: 80%;
+    height: auto;
+    display: block;
+  }
+
+  /* Best selling line */
+  .best-selling-line {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 28px;
+  }

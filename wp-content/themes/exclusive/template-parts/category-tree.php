@@ -7,28 +7,23 @@ function display_product_categories_tree($categories)
     <ul id="treeMenu">
       <?php
       foreach ($categories as $category) {
-        $sub_categories = get_terms(array(
-          'taxonomy'   => 'product_cat',
+        $sub_category = get_terms(array(
+          'taxonomy'   =>
+          'product_cat',
           'hide_empty' => false,
-          'parent'     => $category->term_id,
-        ));
-      ?>
-        <li> <?php echo $category->name ?> <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/DropDown.png" alt="DropDown">
-          <?php if (!empty($sub_categories)) { ?>
-            5
+          'parent' => $category->term_id,
+        )); ?>
+        <li>
+          <?php echo $category->name;
+          if (!empty($sub_category)) {
+            echo '<img
+        src="' . get_template_directory_uri() . '/assets/icons/DropDown.png"
+        alt="DropDown"
+      />'; ?>
             <ul>
-              <li>
-                <?php
-                // print_r($sub_categories);
-                display_product_categories_tree($sub_categories);
-                print_r(5)
-                ?>
-                <!-- <ul>
-                  <li>Subitem 1.2.1</li>
-                  <li>Subitem 1.2.2</li>
-                </ul> -->
-              </li>
-              <li>Subitem 1.2</li>
+              <?php
+              is_array($sub_category) ? display_array_child_node($sub_category) : display_object_child_node($sub_category);
+              ?>
             </ul>
         </li>
       <?php } ?>
@@ -37,7 +32,70 @@ function display_product_categories_tree($categories)
   </div>
 <?php }
 display_product_categories_tree($categories);
-?>
+
+function display_array_child_node($sub_categories)
+{
+  foreach ($sub_categories as $sub_category) {
+    $child_nodes = get_terms(array(
+      'taxonomy'   =>
+      'product_cat',
+      'hide_empty' => false,
+      'parent' => $sub_category->term_id,
+    ));
+    echo '
+<li>
+  ' . $sub_category->name;
+    if (!empty($child_nodes)) {
+      echo '<img
+    src="' . get_template_directory_uri() . '/assets/icons/DropDown.png"
+    alt="DropDown"
+  />';
+      echo '
+  <ul>
+    ';
+      foreach ($child_nodes as $node) {
+        if (is_array($node))
+          display_array_child_node($node);
+        else display_object_child_node($node);
+      }
+      echo '
+  </ul>
+  ';
+    }
+    echo '
+</li>
+';
+  }
+}
+function display_object_child_node($sub_category)
+{
+  $child_nodes =
+    get_terms(array('taxonomy' => 'product_cat', 'hide_empty' => false, 'parent' =>
+    $sub_category->term_id,));
+  echo '
+<li>
+  ' . $sub_category->name;
+  if (!empty($child_nodes)) {
+    echo '<img
+    src="' . get_template_directory_uri() . '/assets/icons/DropDown.png"
+    alt="DropDown"
+  />';
+    echo '
+  <ul>
+    ';
+    foreach ($child_nodes as $node) {
+      if (is_array($node))
+        display_array_child_node($node);
+      else display_object_child_node($node);
+    }
+    echo '
+  </ul>
+  ';
+  }
+  echo '
+</li>
+';
+} ?>
 <style>
   /* tree menu */
   #treeMenu>li {
@@ -81,9 +139,11 @@ display_product_categories_tree($categories);
 
 <script>
   jQuery(document).ready(function($) {
-    $('#treeMenu li').click(function(e) {
-      $(this).children('ul').slideToggle();
-      $(this).toggleClass('open');
+    $("#treeMenu li").click(function(e) {
+      if (!$(this).hasClass("open")) $(this).children("ul").find("img").show();
+      else $(this).children("ul").find("img").hide();
+      $(this).children("ul").slideToggle();
+      $(this).toggleClass("open");
       e.stopPropagation();
     });
   });
