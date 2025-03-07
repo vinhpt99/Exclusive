@@ -12,7 +12,7 @@ $categories = get_terms('product_cat', array(
   'hide_empty' => true,
 )); ?>
 <main>
-  <section class="hero-section">
+  <section class="hero-section container">
     <?php get_template_part('template-parts/category-tree', null, array('categories' =>
     $categories)); ?>
     <div class="slideshow">
@@ -155,7 +155,7 @@ $categories = get_terms('product_cat', array(
         ?>
       </div>
       <div>
-        <?php get_template_part('template-parts/banner'); ?>
+        
       </div>
     </div>
   </article>

@@ -34,7 +34,7 @@
         </div>
         <div class="shopping-cart">
           <i class="fa fa-shopping-cart fa-2x"></i>
-          <span class="badge"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
+          <span id="cart-count" class="badge"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
         </div>
       </div>
     </div>

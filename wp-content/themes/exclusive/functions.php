@@ -1,11 +1,9 @@
 <?php
-function mytheme_add_woocommerce_support()
-{
+function mytheme_add_woocommerce_support() {
   add_theme_support('woocommerce');
 }
 
-function exclusive_theme_enqueue_styles()
-{
+function exclusive_theme_enqueue_styles() {
   wp_enqueue_style('main-style', get_stylesheet_uri());
   wp_enqueue_style('main-css-style', get_template_directory_uri() . '/assets/css/main.css', array(), '1.0.0', 'all');
   wp_enqueue_style('fontawesome', get_template_directory_uri() . '/assets/fonts/fontawesome/css/all.min.css', array(), '6.0.0', 'all');
@@ -31,85 +29,52 @@ function redirect_login_page() {
 }
 add_action('init', 'redirect_login_page');
 
-function add_to_cart()
-{
-  // $product_id = intval($_POST['product_id']);
-  // $quantity = 1; 
-  // error_log('product id'.$product_id);
-  // $added = WC()->cart->add_to_cart($product_id);
-
-  // error_log($added);
-
-  // if ($added) {
-  //     wp_send_json_success();
-  //     error_log('Cart Count: ' . WC()->cart->get_cart_contents_count());
-  // } else {
-  //     error_log('Lỗi' .wp_send_json_error());
-  //     wp_send_json_error();
-  // }
-  if (!isset($_POST["product_id"])) {
-    wp_send_json_error("Thiếu ID sản phẩm.");
-    return;
+function custom_ajax_add_to_cart() {
+  if (!isset($_POST['product_id'])) {
+    wp_send_json_error("Thiếu product_id");
   }
-  $product_id = intval($_POST["product_id"]);
-  if ($product_id > 0) {
-    WC()->cart->add_to_cart($product_id, 2);
 
-    WC()->cart->get_cart_contents_count();
+  $product_id = absint($_POST['product_id']);
+
+  $product = wc_get_product($product_id);
+  if (!$product) {
+    wp_send_json_error("Sản phẩm không tồn tại");
+  }
+
+  $product = wc_get_product($product_id);
+  if (!$product) {
+    wp_send_json_error("Sản phẩm không tồn tại");
+  }
+
+  if ($product->get_status() !== 'publish') {
+    wp_send_json_error("Sản phẩm chưa được public");
+  }
+
+  if ($product->is_type('external') || $product->is_type('grouped')) {
+    wp_send_json_error("Sản phẩm không phải loại có thể mua");
+  }
+
+  if (!$product_id || get_post_type($product_id) !== 'product') {
+    wp_send_json_error("ID sản phẩm không hợp lệ");
+  }
+
+  $added = WC()->cart->add_to_cart($product_id);
+
+  if ($added) {
     $cart_count = WC()->cart->get_cart_contents_count();
-
-    error_log('Session ID: ' . (WC()->session ? WC()->session->get_customer_id() : 'No Session'));
-    error_log('Cart Count: ' . WC()->cart->get_cart_contents_count());
-    error_log('Cart Data: ' . json_encode(WC()->cart->get_cart()));
-    wp_send_json(['cart_count' => WC()->cart->get_cart_contents_count()]);
-
-    // wp_send_json_success([
-    //   "cart_count" => count( WC()->cart->get_cart() )
-    // ]);
+    error_log("$\cart_count" . $cart_count);
+    wp_send_json_success([
+      "message" => "Sản phẩm đã được thêm vào giỏ hàng",
+      "cart_count" => $cart_count
+    ]);
   } else {
-    wp_send_json_error("Sản phẩm không hợp lệ.");
+    wp_send_json_error("Không thể thêm sản phẩm");
   }
 }
-add_action('wp_ajax_add_to_cart', 'custom_add_to_cart');
-add_action('wp_ajax_nopriv_add_to_cart', 'custom_add_to_cart');
+add_action("wp_ajax_add_to_cart", "custom_ajax_add_to_cart");
+add_action("wp_ajax_nopriv_add_to_cart", "custom_ajax_add_to_cart");
 
-// add_action("wp_ajax_custom_add_to_cart", "custom_add_to_cart");
-// add_action("wp_ajax_nopriv_custom_add_to_cart", "custom_add_to_cart");
-// function custom_add_to_cart() {
-//   if (!isset($_POST["product_id"])) {
-//     wp_send_json_error("Thiếu ID sản phẩm.");
-//     return;
-//   }
-//   $product_id = intval($_POST["product_id"]);
-//   if ($product_id > 0) {
-//     WC()->cart->add_to_cart(10, 2);
-   
-//     WC()->cart->get_cart_contents_count();
-//     $cart_count = WC()->cart->get_cart_contents_count();
-
-//     error_log('Session ID: ' . (WC()->session ? WC()->session->get_customer_id() : 'No Session'));
-//   error_log('Cart Count: ' . WC()->cart->get_cart_contents_count());
-//   error_log('Cart Data: ' . json_encode(WC()->cart->get_cart()));
-//   wp_send_json(['cart_count' => WC()->cart->get_cart_contents_count()]);
-    
-//     // wp_send_json_success([
-//     //   "cart_count" => count( WC()->cart->get_cart() )
-//     // ]);
-//   } else {
-//     wp_send_json_error("Sản phẩm không hợp lệ.");
-//   }
-// }
-
-// add_action('wp_ajax_get_cart_count', function () {
-//   error_log('Session ID: ' . (WC()->session ? WC()->session->get_customer_id() : 'No Session'));
-//   error_log('Cart Count: ' . WC()->cart->get_cart_contents_count());
-//   error_log('Cart Data: ' . json_encode(WC()->cart->get_cart()));
-//   wp_send_json(['cart_count' => WC()->cart->get_cart_contents_count()]);
-// });
-
-// function custom_enqueue_scripts() {
-//   wp_localize_script("main-js", "my_ajax_object", array(
-//       "ajax_url" => admin_url("admin-ajax.php")
-//   ));
-// }
-// add_action("wp_enqueue_scripts", "custom_enqueue_scripts"); 
+function custom_ajax_script() {
+  wp_localize_script("jquery", "ajax_object", array("ajax_url" => admin_url("admin-ajax.php")));
+}
+add_action("wp_enqueue_scripts", "custom_ajax_script");
