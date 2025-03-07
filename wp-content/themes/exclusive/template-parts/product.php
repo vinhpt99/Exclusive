@@ -1,8 +1,8 @@
 <?php
 global $product;
 $thumbnail_id = $product->get_image_id();
-$thumbnail_url = wp_get_attachment_url($thumbnail_id);
-?>
+$thumbnail_url =
+  wp_get_attachment_url($thumbnail_id); ?>
 
 <div class="product-item">
   <div class="product-thumbnail">
@@ -11,7 +11,13 @@ $thumbnail_url = wp_get_attachment_url($thumbnail_id);
       <i class="far fa-heart"></i>
       <i class="far fa-eye"></i>
     </div>
-    <img src="<?php echo $thumbnail_url; ?>" alt="Product Image" class="product-image">
+    <img
+      src="<?php echo $thumbnail_url; ?>"
+      alt="Product Image"
+      class="product-image" />
+    <div class="add-to-cart" data-product_id="<?php echo get_the_ID(); ?>">
+      Add to Cart
+    </div>
   </div>
   <div class="product-info">
     <h3 class="product-name"><?php the_title()  ?></h3>

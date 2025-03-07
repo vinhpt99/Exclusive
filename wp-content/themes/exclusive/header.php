@@ -11,12 +11,13 @@
 <body>
   <?php get_template_part('template-parts/topbar'); ?>
   <header>
-    <div class="header">
+    <div class="container header">
       <div class="logo">
         <p>Exclusive</p>
       </div>
       <nav class="nav-menu">
-        <ul>
+        <button class="menu-toggle"><i class="fa-solid fa-bars"></i></button>
+        <ul class="menu-list">
           <li>Home</li>
           <li>Contact</li>
           <li>About</li>
@@ -33,6 +34,7 @@
         </div>
         <div class="shopping-cart">
           <i class="fa fa-shopping-cart fa-2x"></i>
+          <span class="badge"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
         </div>
       </div>
     </div>
