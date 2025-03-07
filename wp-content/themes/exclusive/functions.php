@@ -20,8 +20,7 @@ function exclusive_theme_enqueue_styles()
 }
 add_action('wp_enqueue_scripts', 'exclusive_theme_enqueue_styles');
 
-function redirect_login_page()
-{
+function redirect_login_page() {
   $login_page  = home_url('/login/');
   $request_uri = $_SERVER['REQUEST_URI'];
   if (strpos($request_uri, 'wp-login.php') !== false && $_SERVER['REQUEST_METHOD'] == 'GET') {
