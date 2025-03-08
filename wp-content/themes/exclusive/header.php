@@ -33,8 +33,10 @@
           <i class="fa-regular fa-heart fa-2x"></i>
         </div>
         <div class="shopping-cart">
-          <i class="fa fa-shopping-cart fa-2x"></i>
-          <span id="cart-count" class="badge"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
+          <a href="<?php echo wc_get_cart_url(); ?>">
+            <i class="fa fa-shopping-cart fa-2x"></i>
+            <span id="cart-count" class="badge"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
+          </a>
         </div>
       </div>
     </div>
