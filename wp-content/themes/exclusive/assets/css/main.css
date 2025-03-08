@@ -50,6 +50,12 @@ main {
   margin-right: auto;
 }
 
+.content-area {
+  max-width: var(--width-large);
+  margin: 0 auto;
+  padding-top: 2%;
+}
+
 /* flash sale */
 .paging {
   display: flex;

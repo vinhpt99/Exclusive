@@ -84,6 +84,10 @@ header {
   font-weight: 500;
 }
 
+.shopping-cart a {
+  color: black;
+}
+
 @media (max-width: 768px) {
   .menu-list {
     display: none;

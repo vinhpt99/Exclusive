@@ -10,6 +10,9 @@ function exclusive_theme_enqueue_styles() {
   if (is_front_page()) {
     wp_enqueue_style('product-css', get_template_directory_uri() . '/assets/css/product.css', array(), '1.0', 'all');
   }
+  if (is_cart()) {
+    wp_enqueue_style('custom-cart-css', get_stylesheet_directory_uri() . '/assets/css/custom-cart.css');
+  }
   wp_enqueue_script('custom-jquery', get_template_directory_uri() . '/assets/js/jquery-3.7.1.min.js', array(), null, true);
   wp_enqueue_script('product-js', get_template_directory_uri() . '/assets/js/product.js', array('jquery'), null, true);
   wp_localize_script("product-js", "my_ajax_object", array(
