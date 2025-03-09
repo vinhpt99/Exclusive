@@ -1,0 +1,17 @@
+.content-area h2 {
+  font-family: var(--font-poppins) !important
+}
+
+.wp-block-woocommerce-checkout {
+  font-family: var(--font-poppins) !important
+}
+
+.wc-block-components-checkout-place-order-button {
+  background-color: #DB4444;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-family: var(--font-inter);
+  font-size: 16px;
+  line-height: 24px;
+}

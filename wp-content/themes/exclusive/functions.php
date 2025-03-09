@@ -13,6 +13,12 @@ function exclusive_theme_enqueue_styles() {
   if (is_cart()) {
     wp_enqueue_style('custom-cart-css', get_stylesheet_directory_uri() . '/assets/css/custom-cart.css');
   }
+  if (is_checkout()) {
+    wp_enqueue_style('custom-checkout-css', get_stylesheet_directory_uri() . '/assets/css/custom-checkout.css');
+  }
+  if (is_wc_endpoint_url('order-received')) {
+    wp_enqueue_style('custom-order-received-css', get_stylesheet_directory_uri() . '/assets/css/custom-order-received.css');
+  }
   wp_enqueue_script('custom-jquery', get_template_directory_uri() . '/assets/js/jquery-3.7.1.min.js', array(), null, true);
   wp_enqueue_script('product-js', get_template_directory_uri() . '/assets/js/product.js', array('jquery'), null, true);
   wp_localize_script("product-js", "my_ajax_object", array(
@@ -81,3 +87,12 @@ function custom_ajax_script() {
   wp_localize_script("jquery", "ajax_object", array("ajax_url" => admin_url("admin-ajax.php")));
 }
 add_action("wp_enqueue_scripts", "custom_ajax_script");
+
+function custom_register_menus() {
+  register_nav_menus(array(
+    'primary-menu' => __('Primary Menu'),
+    'footer-menu'  => __('Footer Menu')
+  ));
+}
+add_action('after_setup_theme', 'custom_register_menus');
+

@@ -17,12 +17,13 @@
       </div>
       <nav class="nav-menu">
         <button class="menu-toggle"><i class="fa-solid fa-bars"></i></button>
-        <ul class="menu-list">
-          <li>Home</li>
-          <li>Contact</li>
-          <li>About</li>
-          <li>Sign up</li>
-        </ul>
+        <?php
+        wp_nav_menu(array(
+          'theme_location' => 'primary-menu',
+          'menu_class'     => 'menu-list',
+          'container'      => 'nav',
+        ));
+        ?>
       </nav>
       <div class="utilities">
         <div class="input-search">

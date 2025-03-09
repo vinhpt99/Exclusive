@@ -37,3 +37,9 @@
   border: none;
   margin-right: 100px;
 }
+
+@media (max-width: 768px) {
+  .top-bar {
+    display: none;
+  }
+}
