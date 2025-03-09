@@ -1,4 +1,7 @@
 <?php
+/*
+Template Name: Home page Template
+*/
 get_header();
 $args = array(
   'post_type' => 'product',
@@ -10,7 +13,10 @@ $categories = get_terms('product_cat', array(
   'orderby' => 'name',
   'order' => 'ASC',
   'hide_empty' => true,
-)); ?>
+)); 
+
+?>
+
 <main>
   <section class="hero-section container">
     <?php get_template_part('template-parts/category-tree', null, array('categories' =>
@@ -155,7 +161,7 @@ $categories = get_terms('product_cat', array(
         ?>
       </div>
       <div>
-        
+        <?php get_template_part('template-parts/banner'); ?>
       </div>
     </div>
   </article>
@@ -182,7 +188,7 @@ $categories = get_terms('product_cat', array(
         </div>
       </div>
       <div class="best-selling-line">
-
+      
       </div>
     </div>
   </article>

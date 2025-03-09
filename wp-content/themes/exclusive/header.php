@@ -13,7 +13,7 @@
   <header>
     <div class="container header">
       <div class="logo">
-        <p>Exclusive</p>
+        <a href="/Exclusive">Exclusive</a>
       </div>
       <nav class="nav-menu">
         <button class="menu-toggle"><i class="fa-solid fa-bars"></i></button>

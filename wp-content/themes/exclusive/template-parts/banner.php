@@ -1,5 +1,8 @@
+<?php 
+    $banner_image_id = get_field('banner_image');
+?>
 <div class="promo-banner">
-    <img src="<?php echo esc_url($banner_image); ?>" alt="Promo">
+    <img src="<?php echo wp_get_attachment_url($banner_image_id) ?>" alt="Promo">
     <div class="promo-content">
         <h2><?php echo esc_html($banner_title); ?></h2>
         <p><?php echo esc_html($banner_description); ?></p>
