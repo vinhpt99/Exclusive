@@ -56,6 +56,36 @@ main {
   padding-top: 2%;
 }
 
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #FFF;
+  border-bottom-color: #FF3D00;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: none;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* flash sale */
 .paging {
   display: flex;
@@ -70,6 +100,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .container {
@@ -124,7 +155,7 @@ main {
 .heading-title {
   font-size: 36px;
   font-weight: bold;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-poppins);
   line-height: 48px;
   letter-spacing: 4%;
 }
@@ -133,29 +164,8 @@ main {
   display: flex;
   font-size: 32px;
   align-items: center;
-  font-family: "Inter", sans-serif;
-  line-height: 30px;
-  letter-spacing: 4%;
-}
-
-.countdown div {
-  text-align: center;
-  margin: 0 8px;
-}
-
-.countdown .label {
-  font-size: 12px;
-  display: block;
-  font-family: var(--font-poppins);
-  line-height: 18px;
+  font-family: var(--font-inter);
   font-weight: 500;
-}
-
-.separator {
-  font-size: 24px;
-  font-weight: bold;
-  color: #e07575;
-  padding-top: 8px;
 }
 
 .product-line {
@@ -280,5 +290,19 @@ main {
   .container {
     max-width: 100%;
     padding-bottom: 10px;
+  }
+
+  .heading-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .countdown {
+    display: none;
+  }
+
+  .product-line,
+  .best-selling-line {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

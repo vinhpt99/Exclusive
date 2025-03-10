@@ -462,3 +462,142 @@
 [09-Mar-2025 15:37:26 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
 [09-Mar-2025 15:37:26 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
 [09-Mar-2025 15:37:26 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[09-Mar-2025 15:38:38 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[09-Mar-2025 15:38:38 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[09-Mar-2025 15:38:38 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[09-Mar-2025 15:38:38 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[09-Mar-2025 15:42:07 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[09-Mar-2025 15:42:07 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[09-Mar-2025 15:42:07 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[09-Mar-2025 15:42:07 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[09-Mar-2025 15:46:36 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[09-Mar-2025 15:46:36 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[09-Mar-2025 15:46:36 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[09-Mar-2025 15:46:36 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[09-Mar-2025 15:46:54 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[09-Mar-2025 15:46:54 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[09-Mar-2025 15:46:54 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[09-Mar-2025 15:46:54 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[09-Mar-2025 15:47:23 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[09-Mar-2025 15:47:23 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[09-Mar-2025 15:47:23 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[09-Mar-2025 15:47:23 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[09-Mar-2025 15:47:36 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[09-Mar-2025 15:47:36 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[09-Mar-2025 15:47:36 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[09-Mar-2025 15:47:36 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[09-Mar-2025 15:48:27 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[09-Mar-2025 15:48:27 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[09-Mar-2025 15:48:27 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[09-Mar-2025 15:48:27 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[09-Mar-2025 15:48:50 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[09-Mar-2025 15:48:50 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[09-Mar-2025 15:48:50 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[09-Mar-2025 15:48:50 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[09-Mar-2025 15:49:17 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[09-Mar-2025 15:49:17 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[09-Mar-2025 15:49:17 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[09-Mar-2025 15:49:17 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[09-Mar-2025 15:49:59 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[09-Mar-2025 15:49:59 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[09-Mar-2025 15:49:59 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[09-Mar-2025 15:49:59 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[09-Mar-2025 15:50:26 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[09-Mar-2025 15:50:26 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[09-Mar-2025 15:50:26 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[09-Mar-2025 15:50:26 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[09-Mar-2025 15:50:37 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[09-Mar-2025 15:50:37 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[09-Mar-2025 15:50:37 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[09-Mar-2025 15:50:37 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[09-Mar-2025 15:51:16 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[09-Mar-2025 15:51:16 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[09-Mar-2025 15:51:16 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[09-Mar-2025 15:51:16 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[09-Mar-2025 15:52:53 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[09-Mar-2025 15:52:53 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[09-Mar-2025 15:52:53 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[09-Mar-2025 15:52:53 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[09-Mar-2025 15:53:16 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[09-Mar-2025 15:53:16 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[09-Mar-2025 15:53:16 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[09-Mar-2025 15:53:16 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[09-Mar-2025 15:59:17 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[09-Mar-2025 15:59:17 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[09-Mar-2025 15:59:17 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[09-Mar-2025 15:59:17 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[09-Mar-2025 16:02:33 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[09-Mar-2025 16:02:33 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[09-Mar-2025 16:02:33 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[09-Mar-2025 16:02:33 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[09-Mar-2025 16:02:36 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[09-Mar-2025 16:02:36 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[09-Mar-2025 16:02:36 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[09-Mar-2025 16:02:36 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[09-Mar-2025 16:02:40 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[09-Mar-2025 16:02:40 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[09-Mar-2025 16:02:40 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[09-Mar-2025 16:02:40 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[10-Mar-2025 10:32:58 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[10-Mar-2025 10:32:58 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[10-Mar-2025 10:32:58 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[10-Mar-2025 10:32:58 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[10-Mar-2025 10:33:03 UTC] Automatic updates starting...
+[10-Mar-2025 10:33:04 UTC]   Automatic plugin updates starting...
+[10-Mar-2025 10:33:04 UTC]   Automatic plugin updates complete.
+[10-Mar-2025 10:33:04 UTC]   Automatic theme updates starting...
+[10-Mar-2025 10:33:04 UTC]   Automatic theme updates complete.
+[10-Mar-2025 10:33:04 UTC] Automatic updates complete.
+[10-Mar-2025 10:36:42 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[10-Mar-2025 10:36:42 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[10-Mar-2025 10:36:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[10-Mar-2025 10:36:42 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[10-Mar-2025 10:37:56 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[10-Mar-2025 10:37:56 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[10-Mar-2025 10:37:56 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[10-Mar-2025 10:37:56 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[10-Mar-2025 12:43:50 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[10-Mar-2025 12:43:50 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[10-Mar-2025 12:43:50 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[10-Mar-2025 12:43:50 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[10-Mar-2025 12:47:32 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[10-Mar-2025 12:47:32 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[10-Mar-2025 12:47:32 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[10-Mar-2025 12:47:32 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[10-Mar-2025 12:47:41 UTC] $\cart_count1
+[10-Mar-2025 13:04:27 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[10-Mar-2025 13:04:27 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[10-Mar-2025 13:04:27 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[10-Mar-2025 13:04:27 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[10-Mar-2025 13:06:02 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[10-Mar-2025 13:06:02 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[10-Mar-2025 13:06:02 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[10-Mar-2025 13:06:02 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[10-Mar-2025 13:08:06 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[10-Mar-2025 13:08:06 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[10-Mar-2025 13:08:06 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[10-Mar-2025 13:08:06 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[10-Mar-2025 13:09:03 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[10-Mar-2025 13:09:03 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[10-Mar-2025 13:09:03 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[10-Mar-2025 13:09:03 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[10-Mar-2025 13:09:34 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[10-Mar-2025 13:09:34 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[10-Mar-2025 13:09:34 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[10-Mar-2025 13:09:34 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[10-Mar-2025 13:09:42 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[10-Mar-2025 13:09:42 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[10-Mar-2025 13:09:42 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[10-Mar-2025 13:09:42 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[10-Mar-2025 13:10:07 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[10-Mar-2025 13:10:07 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[10-Mar-2025 13:10:07 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[10-Mar-2025 13:10:07 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[10-Mar-2025 13:10:30 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[10-Mar-2025 13:10:30 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[10-Mar-2025 13:10:30 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[10-Mar-2025 13:10:30 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11
+[10-Mar-2025 13:11:43 UTC] PHP Warning:  Undefined variable $banner_description in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 8
+[10-Mar-2025 13:11:43 UTC] PHP Warning:  Undefined variable $banner_button_link in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 10
+[10-Mar-2025 13:11:43 UTC] PHP Deprecated:  ltrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\Exclusive\wp-includes\formatting.php on line 4467
+[10-Mar-2025 13:11:43 UTC] PHP Warning:  Undefined variable $banner_button_text in C:\laragon\www\Exclusive\wp-content\themes\exclusive\template-parts\banner.php on line 11

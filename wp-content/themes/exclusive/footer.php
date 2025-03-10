@@ -40,6 +40,7 @@
     </div>
   </div>
 </footer>
+<span class="loader"></span>
 <?php wp_footer(); ?>
 </body>
 
